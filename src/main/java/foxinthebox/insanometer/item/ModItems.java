@@ -30,6 +30,7 @@ public class ModItems {
                     .icon(() -> new ItemStack(ModItems.NIGHTMARE_FUEL.get()))
                     .displayItems((enabledFlags, populator, hasPermissions) -> {
                         populator.accept(ModItems.NIGHTMARE_FUEL.get());
+                        populator.accept(ModItems.SHADOW_STEEL_INGOT.get());
                     });
         });
     }
